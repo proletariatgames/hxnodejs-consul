@@ -1,0 +1,14 @@
+{
+  "name": "hxnodejs-consul",
+  "url": "https://github.com/proletariatgames/hxnodejs-consul",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["nodejs", "consul"],
+  "description": "Externs for the consul NPM module",
+  "releasenote": "Initial release",
+  "version": "0.24.0-alpha",
+  "contributors": ["Proletariat", "lpetre", "danogles", "waneck"],
+  "dependencies": {
+    "hxnodejs": ""
+  }
+}
