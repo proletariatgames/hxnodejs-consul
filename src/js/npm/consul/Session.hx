@@ -62,7 +62,7 @@ extern class Session {
 
     dc (String, optional): datacenter (defaults to local for agent)
    **/
-  public function list(opt:{ > ConsulCommonOptions, ?dc:String }, callback:ConsulCallback<Array<SessionBehavior>>):Void;
+  public function list(opt:{ > ConsulCommonOptions, ?dc:String }, callback:ConsulCallback<Array<SessionReturn>>):Void;
 
   /**
     Renew a given session.
