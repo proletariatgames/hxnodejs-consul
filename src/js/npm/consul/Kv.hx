@@ -40,7 +40,7 @@ extern class Kv {
     dc (String, optional): datacenter (defaults to local for agent)
     separator (String, optional): list keys up to a given separator
    **/
-  public function keys(opt:{ > ConsulCommonOptions, key:String, ?dc:String, ?separator:String, ?recursive:Bool },
+  public function keys(opt:{ > ConsulCommonOptions, key:String, ?dc:String, ?separator:String },
       callback:ConsulCallback<Array<String>>):Void;
 
   /**
